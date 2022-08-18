@@ -1,0 +1,62 @@
+<!-- Navbar Start -->
+<section class="banner pt-5" >
+
+  <!-- Navbar End -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Find A Perfect Home</span> To Live With Your Family</h1>
+         </div>
+  <div class="col-md-5">
+    <div class="row" >
+
+      <div class="col-med-6" ng >
+        <h3 class="text-left"> Create your account </h3>
+      </div>
+
+      <div class="col-md-6">
+  <span class="glyphicon glyphicon-pencil"></span>
+      </div>
+      <form >
+      <div class="row">
+        <label class="label col-md-2 control-label">Name</label>
+        <div class="col-md-10">
+          <input type="username" class="form-control" name="username" placeholder="user name" [(ngModel)]="name">
+        </div>
+      </div>
+      <div class="row">
+        <label class="label col-md-2 control-label">Last name</label>
+        <div class="col-md-10">
+          <input type="username" class="form-control" name="lastName" placeholder="user name" [(ngModel)]="lastName">
+        </div>
+      </div>
+      <div class="row">
+        <label class="label col-md-2 control-label">E-mail</label>
+        <div class="col-md-10">
+          <input type="email" class="form-control" name="email" placeholder="E-mail" [(ngModel)]="email">
+        </div>
+      </div>
+      <div class="row">
+        <label class="label col-md-2 control-label">Password</label>
+        <div class="col-md-10">
+          <input type="password" class="form-control" name="password" placeholder="Password" [(ngModel)]="password">
+
+        </div>
+      </div>
+      <div class="row">
+        <label class="label col-md-2 control-label"> Phone</label>
+        <div class="col-md-10">
+          <input type="phone_number" class="form-control" name="phone_number" placeholder="Phone number" [(ngModel)]="phone">
+        </div>
+      </div>
+      <div ><button type="submit" class=" btn btn-info" (click)="userRegister()">Register</button></div>
+      </form>
+      {{this.message}}
+    </div>
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+

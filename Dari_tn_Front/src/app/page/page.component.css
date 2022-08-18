@@ -1,0 +1,22 @@
+.imageapprt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Viewbtni {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #1e90ff;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#map {
+  height: 60vh;
+  width: 180vh;
+  margin: auto;
+}

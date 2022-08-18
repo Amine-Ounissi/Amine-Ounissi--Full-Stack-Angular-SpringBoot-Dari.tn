@@ -1,0 +1,11 @@
+.map-frame {
+  height: 100%;
+  position: relative;
+  top: 50%;
+}
+
+#map {
+  height: 60vh;
+  width: 180vh;
+  margin: auto;
+}
