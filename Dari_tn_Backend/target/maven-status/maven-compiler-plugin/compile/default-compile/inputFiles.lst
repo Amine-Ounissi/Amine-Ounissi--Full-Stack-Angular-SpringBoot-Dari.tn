@@ -6,7 +6,6 @@ C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\controller\Annou
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\domain\JwtRequest.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\entities\Category.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\services\UserServicesImp.java
-C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\domain\ReserveToDo.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\security\JwtUserDetailsService.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\entities\VisitType.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\Application.java
@@ -24,7 +23,6 @@ C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\services\UserSer
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\controller\CommentController.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\entities\User.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\services\CommentServiceImpl.java
-C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\domain\RqReserve.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\domain\JwtAuthenticationResponse.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\security\JwtResponse.java
 C:\Users\21624\Desktop\Pi\Dari_tn_Backend\src\main\java\tn\Dari\services\IAnnouncementService.java

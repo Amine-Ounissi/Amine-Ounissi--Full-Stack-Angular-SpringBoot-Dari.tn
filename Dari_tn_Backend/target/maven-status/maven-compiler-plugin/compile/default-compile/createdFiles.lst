@@ -36,9 +36,7 @@ tn\Dari\Application.class
 tn\Dari\entities\Category.class
 tn\Dari\entities\Comment$CommentBuilder.class
 tn\Dari\entities\VisitType.class
-tn\Dari\domain\RqReserve.class
 tn\Dari\domain\SingInRq.class
 tn\Dari\services\ReserveServiceImp.class
 tn\Dari\controller\CommentController.class
-tn\Dari\domain\ReserveToDo.class
 tn\Dari\exception\Resource.class
