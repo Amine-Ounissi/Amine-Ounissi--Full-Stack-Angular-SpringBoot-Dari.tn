@@ -3,8 +3,8 @@ package tn.Dari.entities;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 import javax.persistence.*;
-import java.util.Date;
 import java.io.Serializable;
+import java.util.Date;
 
 
 @Data
@@ -25,10 +25,10 @@ public class Reserve {
     //User user;
     //@OneToOne()
     //Announcement announcement;
+	//@Temporal(TemporalType.DATE)
+	//@JsonFormat(pattern = "dd-mm-yyyy")
 	@Temporal(TemporalType.DATE)
-	@JsonFormat(pattern = "yyyy-mm-dd")
-	Date date;
-
+	Date date = new Date(System.currentTimeMillis());
     String time;
     String purpose;
     String Message;
