@@ -32,6 +32,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:8086")
 @RestController 
 @RequestMapping("/DariTn/reservecontroller")
 public class ReserveController { 
