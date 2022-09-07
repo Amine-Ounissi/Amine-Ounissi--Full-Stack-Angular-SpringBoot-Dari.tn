@@ -7,7 +7,7 @@
 The goal of the project is to support real estate agencies by providing a full-featured
 management system. Dari.tn is an online software that manages the overall operational
 activities and processes, starting from the management of the property, to the management
-of real estate agencies, agsents, clients and financial transactions. It provides comprehensive
+of real estate agencies, agents, clients and financial transactions. It provides comprehensive
 reports for managing the Real Estate agency performance and efficiency, and enables the
 management for better decision-making.
 
