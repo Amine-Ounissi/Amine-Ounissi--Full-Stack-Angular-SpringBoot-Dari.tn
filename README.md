@@ -40,7 +40,7 @@ management for better decision-making.
 
 
 We will use Spring Boot to handle the back-end part and Angular to handle the front-end part, and they will communicate with each other using a REST API.
-Then on the back end, we will have a database.
+Then on the back end, we will have a MySQLdatabase.
 
 ## Tools to be used
 
