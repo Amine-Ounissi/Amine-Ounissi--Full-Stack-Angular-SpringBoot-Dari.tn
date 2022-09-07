@@ -49,8 +49,8 @@ import tn.Dari.repository.AnnouncementRepository;
 import tn.Dari.services.IAnnouncementService;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "http://localhost:8086")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:8086")
 @RestController 
 @RequestMapping("/DariTn/Announcementcontroller")
 public class AnnoucementController {

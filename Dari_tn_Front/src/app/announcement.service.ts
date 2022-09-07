@@ -8,7 +8,7 @@ import { Announcement } from './announcement';
 })
 export class AnnouncementService {
   readonly baseURL =
-    'http://localhost:8090/DariTn/Announcementcontroller/Announcements';
+    'http://localhost:8085/DariTn/Announcementcontroller/Announcements';
 
   constructor(private httpClient: HttpClient) {}
 

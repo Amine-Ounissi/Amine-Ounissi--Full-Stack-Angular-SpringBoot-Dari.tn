@@ -1,0 +1,36 @@
+apiVersion: apps/v1 # For versions before 1.9.0 use apps/v1beta2
+kind: Deployment    
+metadata:   # Data that helps  uniquely identify the object (using name, UID and namespace)          
+  name: amine-pi-frontend
+spec:  # What state you desire for the object              
+  selector:  # The selector field defines how the deployment finds which pod to manage       
+    matchLabels:
+      app: amine-pi-frontend
+  replicas: 1  # Tells the deployment to run 1 pods matching the template      
+  template:
+    metadata:
+      labels:  # Labels are used as indentifying attributes for objects such as pods and replication controller.      
+        app: amine-pi-frontend
+    spec:
+      containers:
+        - name: amine-pi-frontend
+          image: amineounissiregistry.azurecr.io/samples/dari-tn:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: amine-pi-frontend
+  labels:
+    name: amine-pi-frontend
+spec:
+  ports:
+    - nodePort: 30163
+      port: 8080
+      targetPort: 8080
+      protocol: TCP
+  selector:
+    app: amine-pi-frontend
+  type: NodePort
