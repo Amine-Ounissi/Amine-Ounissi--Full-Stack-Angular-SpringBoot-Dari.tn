@@ -16,6 +16,7 @@ management for better decision-making.
 ![Dari tn Architecture](https://user-images.githubusercontent.com/73407173/172736544-7f37887d-f927-408e-9dfa-d5a3d1d6e6cb.png)
 
 
+
 ## Main features of this software are :
 
 · Management of real estate ads
@@ -32,7 +33,8 @@ management for better decision-making.
 
 · Reports generation
 
-## Angular — Spring application : ![0_69C4SWVvcLAc4xYm](https://user-images.githubusercontent.com/73407173/172736488-1104f561-1bdb-4982-9972-11cc4536d61f.png)
+## Angular — Spring application : ![image](https://user-images.githubusercontent.com/73407173/188862761-b1fd578b-8490-4bbe-929b-3b1417ce5e2e.png)
+
 
 
 
