@@ -33,7 +33,8 @@ management for better decision-making.
 
 · Reports generation
 
-## Angular — Spring application : ![image](https://user-images.githubusercontent.com/73407173/188862761-b1fd578b-8490-4bbe-929b-3b1417ce5e2e.png)
+## Angular — Spring application : 
+![image](https://user-images.githubusercontent.com/73407173/188862761-b1fd578b-8490-4bbe-929b-3b1417ce5e2e.png)
 
 
 
