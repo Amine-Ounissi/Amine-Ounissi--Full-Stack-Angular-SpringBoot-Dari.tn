@@ -67,8 +67,14 @@ We will build and push images to Azure Container Registry and deploy the applica
 
 · Server: Tomcat.
 
+· Private Registry: Azure Container Registry.
+
+![ACR](https://user-images.githubusercontent.com/73407173/189353360-0cfc619b-d32d-4a07-9ad7-fc8fd4cd7819.png)
+
+
 · Deployment: AKS Cluster.
 
-· Private Registry: Azure Container Registry.
+![services1](https://user-images.githubusercontent.com/73407173/189353329-eb8e91c4-8eb4-4efe-8290-079b34a29dea.png)
+
 
 · Images: Docker.
